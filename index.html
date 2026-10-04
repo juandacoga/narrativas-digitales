@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Narrativas digitales y multimedia</title>
+  <meta name="description" content="Blog académico sobre narrativa digital: concepto, características, recursos multimedia, diferencias con la narrativa tradicional, ventajas y desventajas. UNIMINUTO · NRC 69648.">
+  <meta property="og:title" content="Las narrativas digitales y multimedia">
+  <meta property="og:description" content="Blog de Lectura y escritura en el contexto digital · UNIMINUTO">
+  <meta property="og:image" content="assets/logo-uniminuto.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0b1d4f">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#portada">
+      <img src="assets/favicon.png" alt="" width="28" height="28">
+      <span>Narrativas digitales</span>
+    </a>
+    <button class="nav__toggle" id="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="nav-links" aria-label="Secciones del blog">
+      <a href="#portada">Portada</a>
+      <a href="#entrada-1">Entrada 1</a>
+      <a href="#entrada-2">Entrada 2</a>
+      <a href="#referencias">Referencias</a>
+    </nav>
+  </header>
+
+  <!-- ============ PORTADA ============ -->
+  <section class="hero" id="portada">
+    <canvas class="hero__net" id="hero-net" aria-hidden="true"></canvas>
+    <div class="hero__inner">
+      <img class="hero__logo reveal" src="assets/logo-uniminuto.png" alt="Logo de UNIMINUTO, Corporación Universitaria Minuto de Dios" width="447" height="447">
+      <div class="hero__text">
+        <p class="eyebrow reveal">Blog académico · Semana 06</p>
+        <h1 class="hero__title reveal">
+          Las narrativas <span class="hl">digitales</span><br>y multimedia
+        </h1>
+        <ul class="hero__team reveal" aria-label="Integrantes">
+          <li>Yoahnys Yulieth Rico Royero</li>
+          <li>Eugenia Muñoz Díaz</li>
+          <li>Juan David Correa García</li>
+        </ul>
+        <dl class="hero__meta reveal">
+          <div><dt>Institución</dt><dd>Corporación Universitaria Minuto de Dios</dd></div>
+          <div><dt>Curso</dt><dd>NRC 69648 · Lectura y escritura en el contexto digital</dd></div>
+          <div><dt>Docente</dt><dd>Mag. Sandra Jenny Otalvaro Garces</dd></div>
+          <div><dt>Fecha</dt><dd><time datetime="2026-10-04">04-10-2026</time></dd></div>
+        </dl>
+        <a class="btn reveal" href="#entrada-1">Empezar a leer <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- ============ ENTRADA 1 ============ -->
+    <article class="post" id="entrada-1">
+      <header class="post__head reveal">
+        <p class="post__num">Entrada 01</p>
+        <h2>¿Qué es la narrativa digital?</h2>
+        <p class="post__lede">Concepto, características, recursos multimedia y diferencias frente a la narrativa tradicional.</p>
+      </header>
+
+      <!-- a. Concepto -->
+      <section class="block reveal" aria-labelledby="e1-concepto">
+        <h3 id="e1-concepto"><span class="tag">a</span> Concepto de narrativa digital</h3>
+        <p>La narrativa digital es una forma diferente de contar historias que se apoya en la tecnología digital. A diferencia de la narrativa tradicional, combina elementos multimedia —texto, imágenes, audio y video— para ofrecer una experiencia más interactiva. Robin (2008) la describe como la práctica de unir el arte de narrar con recursos como imágenes, música y voz, y destaca su valor como herramienta para el aula del siglo XXI.</p>
+        <p>Este tipo de narrativa permite explorar los contenidos de manera <strong>no lineal</strong>: el lector deja de ser un receptor pasivo y puede influir en el curso de la historia mediante su interacción. Por eso, Hermann-Acosta (2018) señala que convierte la comunicación unidireccional en una experiencia multidireccional y co-creativa.</p>
+        <blockquote class="pull">
+          “Contar historias es tan antiguo como la humanidad; lo nuevo es la cantidad de lenguajes y pantallas con que hoy podemos hacerlo.”
+          <cite>— Idea central del blog</cite>
+        </blockquote>
+      </section>
+
+      <!-- b. Características -->
+      <section class="block reveal" aria-labelledby="e1-carac">
+        <h3 id="e1-carac"><span class="tag">b</span> Sus características</h3>
+        <p class="hint">Toca o pasa el cursor sobre cada tarjeta para descubrir la característica.</p>
+        <div class="flips">
+          <button class="flip" type="button" aria-pressed="false">
+            <span class="flip__inner">
+              <span class="flip__front"><span class="flip__icon" aria-hidden="true">🎬</span><span class="flip__name">Multimedia</span></span>
+              <span class="flip__back">Combina texto, imágenes, audio, video, animaciones y mapas conceptuales en una misma historia.</span>
+            </span>
+          </button>
+          <button class="flip" type="button" aria-pressed="false">
+            <span class="flip__inner">
+              <span class="flip__front"><span class="flip__icon" aria-hidden="true">🕸️</span><span class="flip__name">No lineal</span></span>
+              <span class="flip__back">El espectador elige el orden en que recorre la historia mediante hipervínculos, menús o enlaces interactivos.</span>
+            </span>
+          </button>
+          <button class="flip" type="button" aria-pressed="false">
+            <span class="flip__inner">
+              <span class="flip__front"><span class="flip__icon" aria-hidden="true">🙋</span><span class="flip__name">Participación e interactividad</span></span>
+              <span class="flip__back">El receptor deja de ser un consumidor pasivo y se convierte en usuario que actúa, comenta y crea.</span>
+            </span>
+          </button>
+          <button class="flip" type="button" aria-pressed="false">
+            <span class="flip__inner">
+              <span class="flip__front"><span class="flip__icon" aria-hidden="true">🔄</span><span class="flip__name">Actualización</span></span>
+              <span class="flip__back">Las historias pueden transmitirse en tiempo real o modificarse según la respuesta de la audiencia.</span>
+            </span>
+          </button>
+        </div>
+        <p>Estas características se han ido sumando a lo largo de la evolución de los relatos audiovisuales, que pasaron de lo analógico a lo transmedia y a las redes sociales (Karbaum Padilla, 2021).</p>
+      </section>
+
+      <!-- c. Recursos multimedia (infografía interactiva) -->
+      <section class="block reveal" aria-labelledby="e1-recursos">
+        <h3 id="e1-recursos"><span class="tag">c</span> Sus recursos multimedia</h3>
+        <p>Los recursos multimedia, también llamados herramientas digitales, nos ayudan a realizar múltiples funciones en el entorno digital. Robin (2008) identifica como elementos del relato digital la voz narrada, la banda sonora, las imágenes y la economía del contenido. Explora la infografía:</p>
+
+        <figure class="info" aria-label="Infografía interactiva de recursos multimedia">
+          <div class="info__hub" role="tablist" aria-label="Recursos multimedia">
+            <div class="info__core" aria-hidden="true">Relato<br>digital</div>
+            <button class="info__node" role="tab" aria-selected="true" aria-controls="res-panel" data-res="texto" style="--a:0deg">
+              <span aria-hidden="true">📝</span> Texto
+            </button>
+            <button class="info__node" role="tab" aria-selected="false" aria-controls="res-panel" data-res="audio" style="--a:90deg">
+              <span aria-hidden="true">🎧</span> Audio
+            </button>
+            <button class="info__node" role="tab" aria-selected="false" aria-controls="res-panel" data-res="imagen" style="--a:180deg">
+              <span aria-hidden="true">🖼️</span> Imagen y video
+            </button>
+            <button class="info__node" role="tab" aria-selected="false" aria-controls="res-panel" data-res="interactivo" style="--a:270deg">
+              <span aria-hidden="true">🖱️</span> Interactividad
+            </button>
+          </div>
+          <div class="info__panel" id="res-panel" role="tabpanel" aria-live="polite">
+            <h4 id="res-title">Texto</h4>
+            <p id="res-desc">Sirve de base conceptual o de narrativa complementaria: titulares, subtítulos, guiones y explicaciones que dan sentido al resto de recursos.</p>
+            <ul id="res-ej" class="chips"><li>Guion</li><li>Subtítulos</li><li>Hipertexto</li></ul>
+          </div>
+          <figcaption>Infografía interactiva: los cuatro grandes recursos multimedia de la narrativa digital.</figcaption>
+        </figure>
+      </section>
+
+      <!-- d. Diferencias -->
+      <section class="block reveal" aria-labelledby="e1-dif">
+        <h3 id="e1-dif"><span class="tag">d</span> Diferencias frente a la narrativa tradicional</h3>
+
+        <div class="paths">
+          <figure class="path">
+            <svg viewBox="0 0 320 120" class="path__svg path__svg--linear" role="img" aria-label="Narrativa tradicional: una secuencia lineal de inicio a fin">
+              <line x1="30" y1="60" x2="290" y2="60" class="edge"/>
+              <circle cx="30" cy="60" r="12" class="node"/>
+              <circle cx="117" cy="60" r="12" class="node"/>
+              <circle cx="203" cy="60" r="12" class="node"/>
+              <circle cx="290" cy="60" r="12" class="node"/>
+              <circle r="6" class="traveler"><animateMotion dur="4s" repeatCount="indefinite" path="M30,60 L290,60"/></circle>
+            </svg>
+            <figcaption><strong>Tradicional:</strong> inicio → nudo → desenlace, en un solo formato.</figcaption>
+          </figure>
+          <figure class="path">
+            <svg viewBox="0 0 320 120" class="path__svg path__svg--net" role="img" aria-label="Narrativa digital: una red de nodos que el usuario recorre en distinto orden">
+              <path d="M40,60 L120,25 L200,40 L280,20 M120,25 L150,95 L240,90 L280,20 M40,60 L150,95 M200,40 L240,90" class="edge"/>
+              <circle cx="40" cy="60" r="11" class="node"/>
+              <circle cx="120" cy="25" r="11" class="node"/>
+              <circle cx="200" cy="40" r="11" class="node"/>
+              <circle cx="280" cy="20" r="11" class="node"/>
+              <circle cx="150" cy="95" r="11" class="node"/>
+              <circle cx="240" cy="90" r="11" class="node"/>
+              <circle r="6" class="traveler"><animateMotion dur="6s" repeatCount="indefinite" path="M40,60 L150,95 L120,25 L200,40 L240,90 L280,20"/></circle>
+            </svg>
+            <figcaption><strong>Digital / transmedia:</strong> una red de caminos que el usuario elige.</figcaption>
+          </figure>
+        </div>
+
+        <ul class="diffs">
+          <li>Las narrativas digitales enriquecen la experiencia del usuario al combinar múltiples formatos que facilitan la participación activa. A diferencia de los textos tradicionales, el lector no solo consume la información: también influye en la dirección del relato.</li>
+          <li>La narrativa <strong>transmedia</strong> va un paso más allá: la historia se expande por múltiples medios y plataformas, y cada uno aporta una parte diferente y valiosa al conjunto (Scolari, 2013). Así, los seguidores se sumergen en el universo narrativo a través de películas, videojuegos o redes sociales, e incluso producen sus propios contenidos (Jenkins, 2008).</li>
+          <li>La narrativa tradicional, en cambio, suele limitarse a un solo formato —un libro o una película— con una trama de secuencia lineal. En la sociedad transmedia, los usuarios pasan de espectadores a prosumidores que consumen y producen relatos (Paredes Otero, 2022).</li>
+        </ul>
+
+        <div class="table-wrap">
+          <table class="compare">
+            <caption>Comparativa rápida</caption>
+            <thead>
+              <tr><th scope="col">Aspecto</th><th scope="col">Tradicional</th><th scope="col">Digital</th><th scope="col">Transmedia</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Formato</th><td>Uno solo</td><td>Varios en un mismo soporte</td><td>Varios medios y plataformas</td></tr>
+              <tr><th scope="row">Estructura</th><td>Lineal</td><td>No lineal (hipervínculos)</td><td>Expandida en red</td></tr>
+              <tr><th scope="row">Rol del público</th><td>Lector / espectador</td><td>Usuario interactivo</td><td>Prosumidor (crea contenido)</td></tr>
+              <tr><th scope="row">Ejemplo</th><td>Novela impresa</td><td>Reportaje web interactivo</td><td>Saga con película, juego y redes</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Video Entrada 1 -->
+      <section class="block reveal" aria-labelledby="e1-video">
+        <h3 id="e1-video"><span class="tag tag--media">▶</span> Recurso multimedia: video</h3>
+        <figure class="video">
+          <div class="video__frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/k8Hgebq3E2c" title="Carlos Scolari: Conceptos de la Narrativa Transmedia aplicados a la Educación" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <figcaption>Carlos Scolari explica los conceptos de la narrativa transmedia aplicados a la educación (Radio Puerto TV, YouTube).</figcaption>
+        </figure>
+      </section>
+    </article>
+
+    <!-- ============ ENTRADA 2 ============ -->
+    <article class="post" id="entrada-2">
+      <header class="post__head reveal">
+        <p class="post__num">Entrada 02</p>
+        <h2>Ventajas y desventajas frente a la narrativa tradicional</h2>
+        <p class="post__lede">Una balanza argumentada con base en fuentes académicas. Abre cada argumento para leer su sustento.</p>
+      </header>
+
+      <section class="block reveal" aria-label="Balanza de ventajas y desventajas">
+        <div class="scale" id="scale">
+          <svg class="scale__svg" viewBox="0 0 400 150" aria-hidden="true">
+            <line x1="200" y1="30" x2="200" y2="140" class="scale__post"/>
+            <path d="M160,140 L240,140" class="scale__post"/>
+            <g id="scale-beam" class="scale__beam">
+              <line x1="60" y1="30" x2="340" y2="30"/>
+              <circle cx="200" cy="30" r="7"/>
+              <g class="scale__pan scale__pan--left"><line x1="60" y1="30" x2="40" y2="80"/><line x1="60" y1="30" x2="80" y2="80"/><path d="M30,80 Q60,100 90,80 Z"/></g>
+              <g class="scale__pan scale__pan--right"><line x1="340" y1="30" x2="320" y2="80"/><line x1="340" y1="30" x2="360" y2="80"/><path d="M310,80 Q340,100 370,80 Z"/></g>
+            </g>
+          </svg>
+          <p class="scale__readout" id="scale-readout" aria-live="polite">Abre los argumentos y observa cómo se inclina la balanza.</p>
+        </div>
+
+        <div class="pros-cons">
+          <div class="col col--pro">
+            <h3>Ventajas</h3>
+            <details class="arg" data-side="pro">
+              <summary><span class="arg__icon" aria-hidden="true">✨</span> Mayor atractivo visual</summary>
+              <p>Los colores, videos e interacciones hacen el contenido más llamativo. La narración digital activa canales visuales, auditivos y sensoriales a la vez, lo que la vuelve más motivadora que el texto solo (Hermann-Acosta, 2018).</p>
+            </details>
+            <details class="arg" data-side="pro">
+              <summary><span class="arg__icon" aria-hidden="true">🧠</span> Mejor retención de información</summary>
+              <p>Al ser más llamativa, facilita recordar la información. Robin (2008) muestra que crear y ver relatos digitales ayuda a los estudiantes a organizar ideas y a construir significado, lo que favorece la comprensión.</p>
+            </details>
+            <details class="arg" data-side="pro">
+              <summary><span class="arg__icon" aria-hidden="true">🧩</span> Versatilidad</summary>
+              <p>Se adapta con facilidad a nuestras necesidades y está a nuestro alcance en distintos dispositivos. Una revisión sistemática de 154 estudios encontró que funciona en múltiples áreas del currículo y fortalece las competencias digitales y el pensamiento computacional (Gómez-Martín et al., 2026).</p>
+            </details>
+            <details class="arg" data-side="pro">
+              <summary><span class="arg__icon" aria-hidden="true">🖱️</span> Interactividad</summary>
+              <p>Es más dinámica y práctica: permite ir abriendo vínculos y participar. En la cultura de la convergencia, el público deja de ser pasivo y colabora en la construcción del relato (Jenkins, 2008).</p>
+            </details>
+          </div>
+
+          <div class="col col--con">
+            <h3>Desventajas</h3>
+            <details class="arg" data-side="con">
+              <summary><span class="arg__icon" aria-hidden="true">📉</span> Curva de aprendizaje y distracción</summary>
+              <p>Tenerlo todo a un clic puede jugar en contra: nos distraemos con enlaces ajenos al tema. Carr (2011) advierte que la navegación constante entre hipervínculos favorece una lectura superficial y reduce la concentración y la reflexión profunda.</p>
+            </details>
+            <details class="arg" data-side="con">
+              <summary><span class="arg__icon" aria-hidden="true">⏳</span> Tiempo y recursos</summary>
+              <p>No siempre contamos con el tiempo, la formación o las herramientas eficaces para producir o recibir este tipo de contenidos. La UNESCO (2023) recuerda que la tecnología educativa implica costos y que debe evaluarse si es adecuada y sostenible antes de adoptarla.</p>
+            </details>
+            <details class="arg" data-side="con">
+              <summary><span class="arg__icon" aria-hidden="true">📶</span> Problemas de acceso</summary>
+              <p>La conectividad, la falta de espacio de almacenamiento o de dispositivos limitan el acceso. Según la UNESCO (2023), las brechas de acceso a internet y a equipos hacen que la tecnología no beneficie a todos por igual.</p>
+            </details>
+            <details class="arg" data-side="con">
+              <summary><span class="arg__icon" aria-hidden="true">🧱</span> Compatibilidad</summary>
+              <p>El contenido puede no abrirse por el formato, la calidad o el programa requerido. Un libro impreso no depende de software; un relato digital sí, y puede volverse inaccesible si su plataforma cambia o desaparece.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="block reveal" aria-labelledby="e2-concl">
+        <h3 id="e2-concl">Nuestra postura</h3>
+        <p>La narrativa digital ofrece ventajas claras en motivación, interactividad y desarrollo de competencias, pero exige atención, recursos y acceso que no todos tienen. La narrativa tradicional, por su parte, sigue fortaleciendo el desarrollo socioemocional, la creatividad narrativa y la alfabetización cultural. Por eso coincidimos con Gómez-Martín et al. (2026): ambas técnicas no compiten, sino que son <strong>recursos complementarios</strong> que, integrados, enriquecen la enseñanza y el aprendizaje.</p>
+      </section>
+
+      <section class="block reveal" aria-labelledby="e2-video">
+        <h3 id="e2-video"><span class="tag tag--media">▶</span> Recurso multimedia: video e hipervínculos</h3>
+        <figure class="video">
+          <div class="video__frame">
+            <iframe src="https://www.youtube-nocookie.com/embed/6xtzOzuuJ8U" title="Nicholas Carr: la tecnología influencia cómo funcionan nuestras mentes" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <figcaption>Nicholas Carr: “la tecnología influencia cómo funcionan nuestras mentes” (EfectoNaim, YouTube). Complementa la desventaja de la distracción.</figcaption>
+        </figure>
+        <ul class="links">
+          <li><a href="https://doi.org/10.18239/ocnos_2026.25.1.574" target="_blank" rel="noopener">Revisión sistemática: narrativa vs. narrativa digital (Ocnos, 2026) ↗</a></li>
+          <li><a href="https://doi.org/10.54676/UZQV8501" target="_blank" rel="noopener">Informe UNESCO 2023: la tecnología en la educación ↗</a></li>
+          <li><a href="https://doi.org/10.1080/00405840802153916" target="_blank" rel="noopener">Robin (2008): el relato digital en el aula ↗</a></li>
+        </ul>
+      </section>
+    </article>
+
+    <!-- ============ REFERENCIAS ============ -->
+    <section class="refs reveal" id="referencias" aria-labelledby="refs-title">
+      <h2 id="refs-title">Referencias bibliográficas</h2>
+      <ol>
+        <li>Carr, N. (2011). <em>Superficiales: ¿Qué está haciendo Internet con nuestras mentes?</em> Taurus.</li>
+        <li>Gómez-Martín, M., Prieto-Andreu, J.-M., y Álvarez-Kurogi, L. (2026). Narrativa vs. narrativa digital en Educación Primaria y Secundaria. Revisión sistemática. <em>Ocnos, 25</em>(1). <a href="https://doi.org/10.18239/ocnos_2026.25.1.574" target="_blank" rel="noopener">https://doi.org/10.18239/ocnos_2026.25.1.574</a></li>
+        <li>Hermann-Acosta, A. (2018). Innovación, tecnologías y educación: las narrativas digitales como estrategias didácticas. <em>Killkana Sociales, 2</em>(2), 31–38. <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=6538367" target="_blank" rel="noopener">https://dialnet.unirioja.es/servlet/articulo?codigo=6538367</a></li>
+        <li>Jenkins, H. (2008). <em>Convergence culture: La cultura de la convergencia de los medios de comunicación</em>. Paidós.</li>
+        <li>Karbaum Padilla, G. (2021). Una historia audiovisual. En <em>La evolución de la narrativa audiovisual: analógica, transmedia y social media</em> (pp. 18–60). Universidad Peruana de Ciencias Aplicadas (UPC).</li>
+        <li>Paredes Otero, G. (Coord.). (2022). <em>Narrativas y usuarios de la sociedad transmedia</em> (1.ª ed., pp. 239–262, 300–318 y 731–743). Dykinson.</li>
+        <li>Robin, B. R. (2008). Digital storytelling: A powerful technology tool for the 21st century classroom. <em>Theory Into Practice, 47</em>(3), 220–228. <a href="https://doi.org/10.1080/00405840802153916" target="_blank" rel="noopener">https://doi.org/10.1080/00405840802153916</a></li>
+        <li>Scolari, C. A. (2013). <em>Narrativas transmedia: Cuando todos los medios cuentan</em>. Deusto.</li>
+        <li>UNESCO. (2023). <em>Global education monitoring report 2023: Technology in education: A tool on whose terms?</em> UNESCO. <a href="https://doi.org/10.54676/UZQV8501" target="_blank" rel="noopener">https://doi.org/10.54676/UZQV8501</a></li>
+      </ol>
+      <h3 class="refs__sub">Recursos audiovisuales</h3>
+      <ol>
+        <li>EfectoNaim. (s. f.). <em>Nicholas Carr: “la tecnología influencia cómo funcionan nuestras mentes”</em> [Video]. YouTube. <a href="https://www.youtube.com/watch?v=6xtzOzuuJ8U" target="_blank" rel="noopener">https://www.youtube.com/watch?v=6xtzOzuuJ8U</a></li>
+        <li>Radio Puerto TV. (s. f.). <em>Carlos Scolari: Conceptos de la narrativa transmedia aplicados a la educación</em> [Video]. YouTube. <a href="https://www.youtube.com/watch?v=k8Hgebq3E2c" target="_blank" rel="noopener">https://www.youtube.com/watch?v=k8Hgebq3E2c</a></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <img src="assets/favicon.png" alt="" width="36" height="36">
+    <p>UNIMINUTO · Corporación Universitaria Minuto de Dios<br>NRC 69648 · Lectura y escritura en el contexto digital · 2026</p>
+    <a href="#portada" class="foot__top">Volver arriba ↑</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
