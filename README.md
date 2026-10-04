@@ -9,7 +9,7 @@ Blog académico interactivo para el curso **Lectura y escritura en el contexto d
 - Eugenia Muñoz Díaz
 - Juan David Correa García
 
-**Sitio publicado:** _(pendiente: enlace de Vercel)_
+**Sitio publicado:** https://narrativas-digitales.vercel.app/
 
 ## Contenido
 - **Portada:** logo de la universidad e integrantes.
